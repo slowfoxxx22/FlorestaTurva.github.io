@@ -30,7 +30,7 @@ body,
 html {
   width: 100%;
   height: 200vh;
-  background-color: rgb(73, 73, 73);
+  background-color: black;
 }
 
 .centro {
@@ -47,9 +47,47 @@ html {
     width: 90%;
   }
 
-.blocos { 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
+.sep1 {animation: sep1a 5s alternate infinite ease-in-out;}
+
+@keyframes sep1a {
+  0% {transform: rotate(1deg);}
+  100% {transform: rotate(-1deg);}
 }
+
+.sep2 {animation:sep2a 5s alternate infinite ease-in-out;}
+
+@keyframes sep2a {
+  0% {transform: rotate(-1deg);}
+  100% {transform: rotate(1deg);}
+}
+
+.sep3 {animation:sep3a 5s alternate infinite ease-in-out;}
+
+@keyframes sep3a {
+  0% {transform: rotate(1deg);}
+  100% {transform: rotate(-1deg);}
+}
+
+.sep4 {animation:sep4a 5s alternate infinite ease-in-out;}
+
+@keyframes sep4a {
+  0% {transform: rotate(-1deg);}
+  100% {transform: rotate(1deg);}
+}
+
+
+  .blocos { 
+  position: relative;
+  left: 5%;
+  width: 45%;
+  }
+
+  .blocoselecionado {
+    will-change: transform;
+    transition: transform 3s;
+  }
+
+  .blocoselecionado:hover {
+    transition: transform 4s;
+    transform: scale(105%)
+  }
