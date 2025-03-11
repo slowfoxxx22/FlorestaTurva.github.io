@@ -8,6 +8,8 @@ Boa visão do wallpaper
 Espaço para ultima noticia noticias
 
 Botões submenus das outras pgs
+
+botões de submenu aparecem em fileiras um seguido do outros, como a logo
 ===============================================
 - Desenhos e Montagens
 [Desenhos
@@ -23,6 +25,8 @@ Coisas que fiz na infância
 [Montagens
 Memorias Apagadas
 Emoções a Paisagem
+
+
 
 
 =================================================

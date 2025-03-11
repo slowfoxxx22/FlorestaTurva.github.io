@@ -5,6 +5,27 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.abertura {animation: abertura 5s;}
+
+@keyframes abertura {
+  0% {transform: scale(0%)}
+  100% {transform: scale(100%)}
+}
+
+.logoanim1 {animation: logo1 5s ease-in-out infinite alternate ;}
+.logoanim2 {animation: logo2 3s ease-in-out infinite alternate;}
+
+@keyframes logo1 {
+0% {transform: rotate(8deg);}
+100% {transform: rotate(-8deg)}
+}
+
+@keyframes logo2 { 
+0% {transform: scale(90%);}
+100% {transform: scale(100%);}
+}
+
+
 body,
 html {
   width: 100%;
@@ -14,8 +35,9 @@ html {
 
 .centro {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  width: auto;
+  height: auto;
 }
 
 .separador {
@@ -31,5 +53,3 @@ html {
   margin-right: auto;
   width: 60%;
 }
-
-
