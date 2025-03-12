@@ -39,9 +39,9 @@ html {
 
 .centro {
   display: block;
-  text-align: center;
-  width: auto;
-  height: auto;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .separador {
