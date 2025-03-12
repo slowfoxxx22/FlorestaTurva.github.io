@@ -11,13 +11,12 @@ Espaço para ultima noticia noticias
 -------------------
 =O que fazer=
 Animação botoes
-deixar arvore logo em escala
 
-Arvores de fundo balançando
 -------------
 =Desenhos=
 Botão Montagens
 "Flores Turva"
+arvore balançando
 
 capa wallpaper
 Estrelas animadas ao redor do nome

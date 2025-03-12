@@ -6,16 +6,16 @@
 }
 
 .abertura1 {animation: abertura1 5s ease-in-out;} @keyframes abertura1 {0% {transform: scale(0%);} 100% {transform: scale(100%);}}
-.abertura2 {animation: abertura2 7s ease-in-out;} @keyframes abertura2 {0% {transform: scale(0%);} 10% {scale: 0%;} 100% {transform: scale(100%);}}
-.abertura3 {animation: abertura3 8s ease-in-out;} @keyframes abertura3 {0% {transform: scale(0%);} 12% {scale: 0%;} 100% {transform: scale(100%);}}
-.abertura4 {animation: abertura4 9s ease-in-out;} @keyframes abertura4 {0% {transform: scale(0%);} 14% {scale: 0%;} 100% {transform: scale(100%);}}
-.abertura5 {animation: abertura5 10s ease-in-out;} @keyframes abertura5 {0% {transform: scale(0%);} 16% {scale: 0%;} 100% {transform: scale(100%);}}
-.abertura6 {animation: abertura6 11s ease-in-out;} @keyframes abertura6 {0% {transform: scale(0%);} 18% {scale: 0%;} 100% {transform: scale(100%);}}
-.abertura7 {animation: abertura7 12s ease-in-out;} @keyframes abertura7 {0% {transform: scale(0%);} 20% {scale: 0%;} 100% {transform: scale(100%);}}
-.abertura8 {animation: abertura8 13s ease-in-out;} @keyframes abertura8 {0% {transform: scale(0%);} 22% {scale: 0%;} 100% {transform: scale(100%);}}
-.abertura9 {animation: abertura9 14s ease-in-out;} @keyframes abertura9 {0% {transform: scale(0%);} 24% {scale: 0%;} 100% {transform: scale(100%);}}
-.abertura10 {animation: abertura10 15s ease-in-out;} @keyframes abertura10 {0% {transform: scale(0%);} 26% {scale: 0%;} 100% {transform: scale(100%);}}
-.abertura11 {animation: abertura11 16s ease-in-out;} @keyframes abertura11 {0% {transform: scale(0%);} 28% {scale: 0%;} 100% {transform: scale(100%);}}
+.abertura2 {animation: abertura2 7s ease-in-out;} @keyframes abertura2 {0% {opacity: 0%;} 45% {opacity:0%;} 100% {opacity: 100%;}}
+.abertura3 {animation: abertura3 8s ease-in-out;} @keyframes abertura3 {0% {opacity: 0%;} 47% {opacity:0%;} 100% {opacity: 100%;}}
+.abertura4 {animation: abertura4 9s ease-in-out;} @keyframes abertura4 {0% {opacity: 0%;} 49% {opacity:0%;} 100% {opacity: 100%;}}
+.abertura5 {animation: abertura5 10s ease-in-out;} @keyframes abertura5 {0% {opacity: 0%;} 51% {opacity:0%;} 100% {opacity: 100%;}}
+.abertura6 {animation: abertura6 11s ease-in-out;} @keyframes abertura6 {0% {opacity: 0%;} 53% {opacity:0%;} 100% {opacity: 100%;}}
+.abertura7 {animation: abertura7 12s ease-in-out;} @keyframes abertura7 {0% {opacity: 0%;} 55% {opacity:0%;} 100% {opacity: 100%;}}
+.abertura8 {animation: abertura8 13s ease-in-out;} @keyframes abertura8 {0% {opacity: 0%;} 57% {opacity:0%;} 100% {opacity: 100%;}}
+.abertura9 {animation: abertura9 14s ease-in-out;} @keyframes abertura9 {0% {opacity: 0%;} 59% {opacity:0%;} 100% {opacity: 100%;}}
+.abertura10 {animation: abertura10 15s ease-in-out;} @keyframes abertura10 {0% {opacity: 0%;} 61% {opacity:0%;} 100% {opacity: 100%;}}
+.abertura11 {animation: abertura11 16s ease-in-out;} @keyframes abertura11 {0% {opacity: 0%;} 63% {opacity:0%;} 100% {opacity: 100%;}}
 
 .logoanim1 {animation: logo1 5s ease-in-out infinite alternate ;}
 .logoanim2 {animation: logo2 3s ease-in-out infinite alternate;}
@@ -39,7 +39,7 @@ html {
 
 .centro {
   display: block;
-  width: 30%;
+  width: 25%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -91,6 +91,6 @@ html {
   }
 
   .blocoselecionado:hover {
-    transition: transform 4s;
+    transition: transform 3s;
     transform: scale(105%)
   }
