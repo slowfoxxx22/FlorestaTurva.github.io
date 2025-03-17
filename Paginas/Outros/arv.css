@@ -1,0 +1,28 @@
+body,
+html {
+  width: 100%;
+  height: 200vh;
+  background-color: greenyellow;
+  background-size: 100%;
+}
+
+.arv1 {width: 50%;
+    margin-left: 0.6%;
+    margin-right: auto;
+    margin-bottom: -68.4%;
+          display:inline}
+    
+    .arv2 {width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20%;
+        display: inline;
+        animation: arv 3s infinite alternate ease-in-out;}
+
+@keyframes arv {
+    0% {transform:rotate(3.5deg)}
+    100% {transform:rotate(-2.5deg)}
+}
+    
+
+        

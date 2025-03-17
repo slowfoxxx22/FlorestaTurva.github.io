@@ -34,8 +34,10 @@ body,
 html {
   width: 100%;
   height: 200vh;
-  background-color: black;
+  background-image: url(Imagens/Wallpapers/pgabertura.png);
+  background-size: 100%;
 }
+
 
 .titulo { display: block; width: 100%; margin-left:auto; margin-right: auto; animation: titulo 3s infinite alternate ease-in-out}
 
@@ -152,8 +154,11 @@ html {
 
   .Porsf {
     display: block;
+    animation: porsf 6s infinite alternate ease-in-out;
     margin-left: 61%;
     margin-right: auto;
     width: 30%;
     margin-top: -98%
   }
+
+  @keyframes porsf {0% {transform: rotate(1deg);} 100% {transform: rotate(-1deg);}}
