@@ -53,11 +53,14 @@ html {
 
 .atualizacao {
   display:static;
+  animation: atual 4s infinite alternate ease-in-out;
   margin-left: 10%;
   width: 25%;
   margin-bottom: 99%;
   margin-top: -18%
              }
+
+@keyframes atual {0%{transform: rotate(1deg);} 100%{transform: rotate(-1deg);}} 
 
 .separador {
     display: block;
