@@ -16,6 +16,8 @@
 .abertura9 {animation: abertura9 17s ease-in-out;} @keyframes abertura9 {0% {opacity: 0%;} 59% {opacity:0%;} 100% {opacity: 100%;}}
 .abertura10 {animation: abertura10 18s ease-in-out;} @keyframes abertura10 {0% {opacity: 0%;} 61% {opacity:0%;} 100% {opacity: 100%;}}
 .abertura11 {animation: abertura11 19s ease-in-out;} @keyframes abertura11 {0% {opacity: 0%;} 63% {opacity:0%;} 100% {opacity: 100%;}}
+.abertura12 {animation: abertura12 20s ease-in-out;} @keyframes abertura12 {0% {opacity: 0%;} 65% {opacity:0%;} 100% {opacity: 100%;}}
+.abertura13 {animation: abertura13 21s ease-in-out;} @keyframes abertura13 {0% {opacity: 0%;} 67% {opacity:0%;} 100% {opacity: 100%;}}
 
 .logoanim1 {animation: logo1 5s ease-in-out infinite alternate ;}
 .logoanim2 {animation: logo2 3s ease-in-out infinite alternate;}
@@ -83,25 +85,17 @@ html {
   100% {transform: rotate(1deg);}
 }
 
-.sep3 {animation:sep3a 5s alternate infinite ease-in-out;}
-
-@keyframes sep3a {
-  0% {transform: rotate(1deg);}
-  100% {transform: rotate(-1deg);}
-}
-
-.sep4 {animation:sep4a 5s alternate infinite ease-in-out;}
-
-@keyframes sep4a {
-  0% {transform: rotate(-1deg);}
-  100% {transform: rotate(1deg);}
-}
-
   .blocos { 
   position: relative;
   left: 10%;
   width: 40%;
   }
+
+  .blocos1 { 
+    position: relative;
+    left: 10.5%;
+    width: 80%;
+    }
 
   .blocoselecionado {
     will-change: transform;

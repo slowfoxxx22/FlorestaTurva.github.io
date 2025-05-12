@@ -2,10 +2,6 @@ body,
 html {
   width: 100%;
   height: 200vh;
-  background-color: black;
+  background-color: rgb(255, 227, 136);
   background-size: 100%;
-} 
-
-.texto {
-  color:white
 }

@@ -1,0 +1,17 @@
+---
+Estático
+-Esboço cidade
+---
+Interface
+
+---
+Mapas
+
+---
+Outros
+
+---
+Combate
+
+---
+sexo
