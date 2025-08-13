@@ -1,1 +1,38 @@
 <!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+    <title> Rabiscos </title> 
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        body,
+html {
+  width: 100%;
+  height: 200vh;
+  background-color: rgb(0, 0, 0);
+  background-size: 100%;
+}
+    </style>
+</head>
+
+<body>
+<div class="slider">
+    <div class="slides">
+        <img class="slide" src="Rabiscos/04.png" alt="4">
+        <img class="slide" src="Rabiscos/03.png" alt="3">
+        <img class="slide" src="Rabiscos/02.png" alt="2">
+        <img class="slide" src="Rabiscos/01.png" alt="1">
+    </div>
+    <button class="prev" onclick="prevSlide()">&#10094</button>
+    <button class="next" onclick="nextSlide()">&#10095</button>
+</div>
+    <div>
+        <img class="conjunto" onclick="slide0()" src="Rabiscos/04.png"> 
+        <img class="conjunto" onclick="slide1()" src="Rabiscos/03.png"> 
+        <img class="conjunto" onclick="slide2()" src="Rabiscos/02.png"> 
+        <img class="conjunto" onclick="slide3()" src="Rabiscos/01.png"> 
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
